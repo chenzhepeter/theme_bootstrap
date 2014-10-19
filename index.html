@@ -49,94 +49,87 @@
     <div class="row">
       <div class="col-md-8">
         <h1>Featured</h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-        <div class="row">
-          <div class="col-md-12">
-            <div id="Carousel" class="carousel slide">
-              <ol class="carousel-indicators">
-                <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#Carousel" data-slide-to="1"></li>
-                <li data-target="#Carousel" data-slide-to="2"></li>
-              </ol>
-              <!-- Carousel items -->
-              <div class="carousel-inner">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
 
-                <div class="item active">
-                  <div class="row">
-                    <div class="col-md-4">
-                      <a href="#" class="thumbnail">
-                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                      </a>
-                    </div>
-
-                    <div class="col-md-4">
-                      <a href="#" class="thumbnail">
-                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                      </a>
-                    </div>
-                    <div class="col-md-4">
-                      <a href="#" class="thumbnail">
-                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                      </a>
-                    </div>
-                  </div>
-                  <!--.row-->
-                </div>
-                <!--.item-->
-
-                <div class="item">
-                  <div class="row">
-                    <div class="col-md-4">
-                      <a href="#" class="thumbnail">
-                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                      </a>
-                    </div>
-                    <div class="col-md-4">
-                      <a href="#" class="thumbnail">
-                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                      </a>
-                    </div>
-                    <div class="col-md-4">
-                      <a href="#" class="thumbnail">
-                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                      </a>
-                    </div>
-                  </div>
-                  <!--.row-->
-                </div>
-                <!--.item-->
-
-                <div class="item">
-                  <div class="row">
-                    <div class="col-md-4">
-                      <a href="#" class="thumbnail">
-                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                      </a>
-                    </div>
-                    <div class="col-md-4">
-                      <a href="#" class="thumbnail">
-                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                      </a>
-                    </div>
-                    <div class="col-md-4">
-                      <a href="#" class="thumbnail">
-                        <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
-                      </a>
-                    </div>
-                  </div>
-                  <!--.row-->
-                </div>
-                <!--.item-->
-
+            <div class="item active">
+              <img src="http://placehold.it/760x400/cccccc/ffffff">
+              <div class="carousel-caption">
+                <h4><a href="#">1 Owl Reminder for Google Calendar™</a>
+                </h4>
+                <p><a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">Free Collection</a>
+                </p>
               </div>
-              <!--.carousel-inner-->
-              <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
-              <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
             </div>
-            <!--.Carousel-->
+            <!-- End Item -->
+
+            <div class="item">
+              <img src="http://placehold.it/760x400/999999/cccccc">
+              <div class="carousel-caption">
+                <h4><a href="#">2 Owl Reminder for Google Calendar™</a>
+                </h4><a href="#"><a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">Free</a>
+                </p>
+              </div>
+            </div>
+            <!-- End Item -->
+
+            <div class="item">
+              <img src="http://placehold.it/760x400/dddddd/333333">
+              <div class="carousel-caption">
+                <h4><a href="#">3 Owl Reminder for Google Calendar™</a>
+                </h4>
+                <p><a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">Carousel Collection</a>
+                </p>
+              </div>
+            </div>
+            <!-- End Item -->
+
+            <div class="item">
+              <img src="http://placehold.it/760x400/999999/cccccc">
+              <div class="carousel-caption">
+                <h4><a href="#">4 Owl Reminder for Google Calendar™</a>
+                </h4>
+                <p><a class="label label-primary" href="http://sevenx.de/demo/bootstrap-carousel/" target="_blank">Bootstrap</a>
+                </p>
+              </div>
+            </div>
+            <!-- End Item -->
+
 
           </div>
+          <!-- End Carousel Inner -->
+
+
+          <ul class="list-group col-sm-4" id="nameGroup">
+            <li data-target="#myCarousel" data-slide-to="0" class="list-group-item active">
+              <h4>1 Owl Reminder for Google Calendar™</h4>
+            </li>
+            <li data-target="#myCarousel" data-slide-to="1" class="list-group-item">
+              <h4>2 Owl Reminder for Google Calendar™</h4>
+            </li>
+            <li data-target="#myCarousel" data-slide-to="2" class="list-group-item">
+              <h4>3 Owl Reminder for Google Calendar™</h4>
+            </li>
+            <li data-target="#myCarousel" data-slide-to="3" class="list-group-item">
+              <h4>4 Owl Reminder for Google Calendar™</h4>
+            </li>
+
+          </ul>
+
+          <!-- Controls -->
+          <div class="carousel-controls">
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
+
         </div>
+        <!-- End Carousel -->
         <article>
           <hr>
           <div class="list-group">
